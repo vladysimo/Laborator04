@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Contacts Manager</string>
+
+    <string name="show_additional_fields">Show Additional Fields</string>
+    <string name="hide_additional_fields">Hide Additional Fields</string>
+
+    <string name="phone_error">Did not receive phone number from Phone Dialer!</string>
+</resources>

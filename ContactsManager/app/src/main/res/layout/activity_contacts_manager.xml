@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ro.pub.cs.systems.eim.lab04.contactsmanager.ContactsManagerActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/additional_fields_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_additional_fields"
+            android:layout_gravity="right"/>
+
+        <EditText
+            android:id="@+id/name_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"/>
+
+        <EditText
+            android:id="@+id/number_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Number"/>
+
+        <EditText
+            android:id="@+id/email_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/address_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"/>
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/additional_fields_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/job_title_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Job Title"/>
+
+            <EditText
+                android:id="@+id/company_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company"/>
+
+            <EditText
+                android:id="@+id/website_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Website"/>
+
+            <EditText
+                android:id="@+id/im_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="IM"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
